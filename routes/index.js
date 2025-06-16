@@ -6,8 +6,10 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/forrest', function(req, res) {
+  console.log('rota /forrest foi chamada');
   res.render('forrest');
 });
+
 
 router.get('/castaway', function(req, res) {
   res.render('castaway');
